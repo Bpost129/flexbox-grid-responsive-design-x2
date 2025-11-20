@@ -12,17 +12,20 @@ body {
 }
 
 #face {
-  border-right: 2px solid green;
-  width: 275px;
-  padding: 10px;
+
+  width: 250px;
+  padding: 16px;
 }
 
-#bio {
-  padding: 10px 16px;
+#bio-container {
+  padding: 16px;
+  background-color: rgb(244, 244, 244);
 }
 
 h2 {
-
+  margin: 16px 0;
+  font-size: 32px;
+  letter-spacing: 1.1px;
 }
 
 #rating {
@@ -31,6 +34,8 @@ h2 {
 
 h4 {
   margin-top: 8px;
+  font-size: 18px;
+  letter-spacing: 1.2px;
 }
 
 .fa-solid {
@@ -38,4 +43,12 @@ h4 {
   text-shadow: 0 0 1px black;
 }
 
-
+#bio {
+  /* height: 60px; */
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  margin-left: 2px;
+  padding-left: 10px;
+  line-height: 1.75;
+  border-left: 4px solid rgb(16, 203, 16);
+}
