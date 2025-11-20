@@ -12,9 +12,27 @@ body {
 }
 
 #face {
+  width: 400px;
+  height: 100%;
+}
 
-  width: 250px;
-  padding: 16px;
+#face-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65%;
+}
+
+#face-img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid rgb(16, 203, 16);
+}
+
+#contact-div {
+  background-color: green;
+  margin: 0;
 }
 
 #bio-container {
