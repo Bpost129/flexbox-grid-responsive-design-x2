@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+#card {
+  border: 2px solid black;
+  height: 260px;
+  width: 600px;
+  display: flex;
+}
+
+#face {
+  border-right: 2px solid green;
+  width: 275px;
+  padding: 10px;
+}
+
+#bio {
+  padding: 10px 16px;
+}
+
+h2 {
+
+}
+
+#rating {
+  margin: 0;
+}
+
+h4 {
+  margin-top: 8px;
+}
+
+.fa-solid {
+  color: gold;
+  text-shadow: 0 0 1px black;
+}
+
+
