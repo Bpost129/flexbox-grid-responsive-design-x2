@@ -47,12 +47,15 @@ body {
 
 #contact-div > i {
   /* border: 2px solid pink; */
-  height: 80%;
+  height: 100%;
   width: 50%;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   padding-bottom: 0; 
   /* margin: 20px 0 0 0; */
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #contact-div > :nth-child(1) {
