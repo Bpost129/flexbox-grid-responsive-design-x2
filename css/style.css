@@ -14,6 +14,8 @@ body {
 #face {
   width: 400px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #face-div {
@@ -21,6 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 65%;
+  margin: 16px 0;
 }
 
 #face-img {
@@ -28,12 +31,38 @@ body {
   width: 120px;
   border-radius: 50%;
   border: 3px solid rgb(16, 203, 16);
+  /* margin-top: 12px; */
 }
 
 #contact-div {
-  background-color: green;
-  margin: 0;
+  /* background-color: green; */
+  /* margin: 24px 0 0 0; */
+  text-align:center;
+  padding-top: 24px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
+#contact-div > i {
+  /* border: 2px solid pink; */
+  height: 80%;
+  width: 50%;
+  padding-top: 30px;
+  padding-bottom: 0; 
+  /* margin: 20px 0 0 0; */
+  text-align: center;
+}
+
+#contact-div > :nth-child(1) {
+  background-color: limegreen;
+}
+
+#contact-div > :nth-child(2) {
+  background-color: green;
+}
+
 
 #bio-container {
   padding: 16px;
@@ -59,6 +88,14 @@ h4 {
 .fa-solid {
   color: gold;
   text-shadow: 0 0 1px black;
+}
+
+.fa-phone-flip {
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
 }
 
 #bio {
