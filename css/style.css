@@ -59,11 +59,11 @@ body {
 }
 
 #contact-div > :nth-child(1) {
-  background-color: limegreen;
+  background-color: #32cd32cc;
 }
 
 #contact-div > :nth-child(2) {
-  background-color: green;
+  background-color: rgba(0, 128, 0, 0.874);
 }
 
 
